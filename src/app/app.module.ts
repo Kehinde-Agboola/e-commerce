@@ -17,9 +17,21 @@ import { EditProductsComponent } from './components/edit-products/edit-products.
 import { AddProductsComponent } from './components/add-products/add-products.component';
 import { LoginComponent } from './components/login/login.component';
 import { SpinnerComponent } from './components/spinner/spinner.component';
+import { ViewProductsComponent } from './components/view-products/view-products.component';
+import { PagenotfoundComponent } from './components/pagenotfound/pagenotfound.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, HomeComponent, EditProductsComponent, AddProductsComponent, LoginComponent, SpinnerComponent],
+  declarations: [
+    AppComponent,
+    NavbarComponent,
+    HomeComponent,
+    EditProductsComponent,
+    AddProductsComponent,
+    LoginComponent,
+    SpinnerComponent,
+    ViewProductsComponent,
+    PagenotfoundComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
