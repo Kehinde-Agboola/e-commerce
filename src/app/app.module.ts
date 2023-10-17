@@ -16,9 +16,10 @@ import { HomeComponent } from './components/home/home.component';
 import { EditProductsComponent } from './components/edit-products/edit-products.component';
 import { AddProductsComponent } from './components/add-products/add-products.component';
 import { LoginComponent } from './components/login/login.component';
+import { SpinnerComponent } from './components/spinner/spinner.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, HomeComponent, EditProductsComponent, AddProductsComponent, LoginComponent],
+  declarations: [AppComponent, NavbarComponent, HomeComponent, EditProductsComponent, AddProductsComponent, LoginComponent, SpinnerComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
