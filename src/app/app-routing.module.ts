@@ -25,7 +25,7 @@ const routes: Routes = [
     component: EditProductsComponent,
   },
   {
-    path: 'products/view/:contactId',
+    path: 'products/view/:productId',
     component: ViewProductsComponent,
   },
   {
