@@ -1,22 +1,2 @@
-<mat-toolbar fxLayout="row" color="primary" class="py-lg-5">
-  <div class="container mx-auto">
-    <div fxFlex>
-      <img src="../assets/logo.png" class="logo w-[60px] md:w-[90px]" alt="" />
-    </div>
-    <div class="gap-3 md:gap-lg-5 flex self-center items-center">
-      <a href="#">
-        <i class="fa fa-heart"></i>
-        <span class="ms-1 d-none d-sm-inline-block"> Wishlist </span>
-      </a>
-
-      <a data-bs-toggle="offcanvas" href="#offcanvas_cart">
-        <i class="fa fa-shopping-cart me-1"></i>
-        <span class="ms-1 d-none d-sm-inline-block"> My cart </span>
-      </a>
-      <a href="#">
-        <i class="fa fa-user"></i>
-        <span class="ms-1"> Sign in </span>
-      </a>
-    </div>
-  </div>
-</mat-toolbar>
+<app-navbar></app-navbar>
+<router-outlet></router-outlet>
